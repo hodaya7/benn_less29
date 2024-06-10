@@ -8,7 +8,13 @@ img {
 }
 
 .green {
-    background-color: lightgreen;
+    background-color: green;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    color: yellow;
 }
 
 

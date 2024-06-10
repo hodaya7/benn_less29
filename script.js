@@ -2,7 +2,9 @@
 document.addEventListener("DOMContentLoaded", function () {
     var selectedRowsList=document.querySelector("#my-tbody").children;
     for(let i=0; i<selectedRowsList.length; i++){
-        if (Number(selectedRowsList[i].querySelector(".rating").textContent) > 2)
+        if (Number(selectedRowsList[i].querySelector(".rating").textContent) < 2)
+        selectedRowsList[i].classList.add("red");
+        if (Number(selectedRowsList[i].querySelector(".rating").textContent) >= 4)
         selectedRowsList[i].classList.add("green");
     }
     
