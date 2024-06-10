@@ -1,0 +1,22 @@
+.my-table {
+    border: 1px solid black;
+    margin: 5px;
+}
+img {
+    height: 30%;
+    width: 30%;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+
+
+.not-display-element {
+    display: none;
+}
+
+.order-table {
+    border: 1px solid black;
+}
