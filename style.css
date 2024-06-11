@@ -13,11 +13,9 @@ img {
 .red {
     background-color: red;
 }
-.yellow {
-    color: yellow;
+.yellow-1 {
+    color: yellow !important;;
 }
-
-
 
 .not-display-element {
     display: none;
