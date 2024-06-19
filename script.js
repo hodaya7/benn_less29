@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
         if (Number(selectedRowsList[i].querySelector(".rating").textContent) >= 4)
         selectedRowsList[i].classList.add("green");
     }
-    
 });
 
 // function checkRating() {
@@ -35,12 +34,9 @@ document.querySelector("#buy-4").addEventListener("click", function () {
     createPurchaseTable(document.querySelector(".fourth-row"));
 });
 
-
 function createPurchaseTable(selectedRow) {
     updateTableRow(selectedRow);
     document.querySelector(".order-table").classList.remove("not-display-element");
-
-
 }
 
 function updateTableRow(selectedRow) {
